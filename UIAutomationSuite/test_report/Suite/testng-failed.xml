@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="CartTest(failed)">
+    <classes>
+      <class name="com.zalando.suite.TestBuyProducts">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="initialSetup"/>
+          <include name="afterTestMethod"/>
+          <include name="testAddToCart"/>
+        </methods>
+      </class> <!-- com.zalando.suite.TestBuyProducts -->
+      <class name="com.zalando.suite.TestLoginPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.zalando.suite.TestLoginPage -->
+    </classes>
+  </test> <!-- CartTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

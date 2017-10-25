@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="73715" started-at="2017-10-25T09:27:53Z" finished-at="2017-10-25T09:29:07Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="73715" started-at="2017-10-25T09:27:53Z" finished-at="2017-10-25T09:29:07Z">
+      <class name="com.zalando.suite.TestBuyProducts">
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:com.zalando.suite.TestBuyProducts@843fce]" name="initialSetup" is-config="true" duration-ms="63" started-at="2017-10-25T11:27:53Z" finished-at="2017-10-25T11:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.zalando.suite.TestBuyProducts@843fce]" name="beforeTest" is-config="true" duration-ms="8591" started-at="2017-10-25T11:27:53Z" finished-at="2017-10-25T11:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testAddToCart()[pri:0, instance:com.zalando.suite.TestBuyProducts@843fce]" name="testAddToCart" duration-ms="59726" started-at="2017-10-25T11:28:02Z" finished-at="2017-10-25T11:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.zalando.suite.TestBuyProducts@843fce]" name="afterTestMethod" is-config="true" duration-ms="5397" started-at="2017-10-25T11:29:01Z" finished-at="2017-10-25T11:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.zalando.suite.TestBuyProducts -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

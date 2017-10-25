@@ -1,0 +1,14 @@
+com\zalando\exceptions\ElementNotAvailableToClickException.class
+com\zalando\page\ObjectRepository.class
+com\zalando\exceptions\SearchLandingPageException.class
+com\zalando\exceptions\CartPageException.class
+com\zalando\base\BaseClass.class
+com\zalando\page\LoginPage.class
+com\zalando\page\SearchLandingPage.class
+com\zalando\page\ProductLandingPage.class
+com\zalando\base\BaseConstants.class
+com\zalando\commonUtils\TestPropertyLoader.class
+com\zalando\exceptions\TestDataException.class
+com\zalando\commonUtils\CommonUtils.class
+com\zalando\page\CartPage.class
+com\zalando\page\HomePage.class
