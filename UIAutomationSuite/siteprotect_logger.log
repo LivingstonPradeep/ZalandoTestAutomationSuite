@@ -216,3 +216,25 @@
 2017-10-25 11:28:56,262 [main] INFO  com.zalando.page.ObjectRepository - Selecting the quantity
 2017-10-25 11:29:01,899 [main] INFO  com.zalando.page.ObjectRepository - Moving to wishlist
 2017-10-25 11:29:01,952 [main] INFO  com.zalando.page.ObjectRepository - Product Already in wishlist
+2017-10-25 19:55:08,125 [main] INFO  com.zalando.base.BaseClass - Creating Chrome Driver
+2017-10-25 19:55:08,240 [main] INFO  com.zalando.base.BaseClass - Setting Chrome Capabilities and initiating Chrome Driver
+2017-10-25 19:55:19,994 [main] INFO  com.zalando.base.BaseClass - Getting the test data from the test data sheet
+2017-10-25 19:55:20,030 [main] INFO  com.zalando.commonUtils.CommonUtils - Maximising browser window
+2017-10-25 19:55:23,375 [main] INFO  com.zalando.commonUtils.CommonUtils - Hitting the URL https://www.zalando.de/
+2017-10-25 19:55:44,114 [main] INFO  com.zalando.page.ObjectRepository - Clicking On Login Icon
+2017-10-25 19:55:44,323 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //*[@id='fieldAccountAccountBox'] found. Clicking on element
+2017-10-25 19:55:46,880 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //*[@id='fieldLogin'] found. Clicking on element
+2017-10-25 19:55:54,314 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //button[contains(@class,'login_button')] found. Clicking on element
+2017-10-25 19:55:56,441 [main] INFO  com.zalando.base.BaseClass - Searching the product : DK151H09R-C11
+2017-10-25 19:55:56,441 [main] INFO  com.zalando.page.ObjectRepository - Searching for product DK151H09R-C11
+2017-10-25 19:55:57,511 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //*[@id='searchContent'] found. Clicking on element
+2017-10-25 19:55:58,143 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //*[@id='searchButtonTopSubmit'] found. Clicking on element
+2017-10-25 19:56:02,249 [main] INFO  com.zalando.base.BaseClass - Checking if the product is valid
+2017-10-25 19:56:02,550 [main] INFO  com.zalando.base.BaseClass - Product found. Checking if the product is on stock
+2017-10-25 19:56:03,381 [main] INFO  com.zalando.base.BaseClass - Adding the product to Cart
+2017-10-25 19:56:05,116 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //*[@id='z-pdp-topSection-addToCartButton'] found. Clicking on element
+2017-10-25 19:56:05,619 [main] INFO  com.zalando.page.ObjectRepository - Product Added to bag
+2017-10-25 19:56:05,945 [main] INFO  com.zalando.page.ObjectRepository - Clicking On Cart Icon
+2017-10-25 19:56:08,582 [main] INFO  com.zalando.commonUtils.CommonUtils - Element //a[@href='/cart/'] found. Clicking on element
+2017-10-25 19:56:10,720 [main] INFO  com.zalando.page.ObjectRepository - Selecting the quantity
+2017-10-25 19:56:15,087 [main] INFO  com.zalando.page.ObjectRepository - Moving to wishlist
